@@ -1,8 +1,8 @@
 # Testing JavaScript Applications
 
-> **Note:** The below files were reviewed for correctness and tests were executed and verified. Readers are requested to change the file path in the codebase to match their respective platform - e.g. Windows/Linux/Mac. Shall we consider using some node functions from `path` to normalize this? I changed the file path for log files wherever required and committed the changes to [my fork](https://github.com/srihari-sridharan/testing-javascript-applications). May be users running this on Windows will find this useful.
+> **Note:** The below files were reviewed for correctness and tests were executed and verified. Readers are requested to change the file path in the codebase to match their respective platform - e.g. Windows/Linux/Mac. I changed the file path for log files wherever required and committed the changes to [my fork](https://github.com/srihari-sridharan/testing-javascript-applications). May be users running this on Windows will find this useful.
 
-While reviewing chapters 2, 3 and 4 I observed that the name in `package.json` and `package-lock.json` was getting updated
+While reviewing chapters 2, 3 and 4 I observed that the `name` in `package.json` and `package-lock.json` was getting updated.
 
 ## Chapter 4: Testing back-end applications
 
@@ -40,7 +40,7 @@ No comments.
 
 ### Listing 4. 10. logger.js
 
-Please add a note for Windows users, a generic note to change file path wherever needed. e.g 'tmp\logs.out'
+Please add a note for Windows users, a generic note to change file path wherever needed. e.g 'logs.out'
 
 ### Listing 4. 11. cartController.js
 
