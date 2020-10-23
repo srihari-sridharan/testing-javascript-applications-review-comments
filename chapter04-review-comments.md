@@ -1,6 +1,8 @@
 # Testing JavaScript Applications
 
-> **Note:** The below files were reviewed for correctness and tests were executed and verified. Readers are requested to change the file path in the codebase to match their respective platform - e.g. Windows/Linux/Mac. Shall we consider using some node functions from `path` to normalize this?
+> **Note:** The below files were reviewed for correctness and tests were executed and verified. Readers are requested to change the file path in the codebase to match their respective platform - e.g. Windows/Linux/Mac. Shall we consider using some node functions from `path` to normalize this? I changed the file path for log files wherever required and committed the changes to [my fork](https://github.com/srihari-sridharan/testing-javascript-applications). May be users running this on Windows will find this useful.
+
+While reviewing chapters 2, 3 and 4 I observed that the name in `package.json` and `package-lock.json` was getting updated
 
 ## Chapter 4: Testing back-end applications
 
@@ -132,7 +134,7 @@ No comments. Good that the author left certain parts as things to be tried by re
 
 ### Listing 4. 33. knexfile.js
 
-No comments.
+No comments. Quick question on `chapter4\3_dealing_with_external_dependencies\1_database_integrations\package.json`. Any reason why the package.json has the entry for `sqlite3` as `"sqlite3": "file:node_modules/sqlite3"`? I had to remove this entry to install the npm packages for sqlite3.
 
 ### Listing 4. 34. dbConnection.js
 
@@ -143,5 +145,115 @@ No comments.
 No comments.
 
 ### authenticationController.js - page 48
+
+No comments.
+
+### authenticationController.test.js - page 49 - 50
+
+No comments.
+
+### authenticationController.test.js - page 51
+
+No comments.
+
+### knexfile.js - page 52
+
+No comments.
+
+### dbConnection.js - page 53
+
+No comments.
+
+### knexfile.js - page 53
+
+No comments.
+
+### dbConnection.js - page 54
+
+No comments.
+
+### example.js - page 55
+
+No comments. :-)
+
+### dbConnection.js - page 55
+
+No comments.
+
+Cool to see the approach using `process.env.NODE_ENV`. Good one.
+
+### jest.config.js - page 56
+
+No comments.
+
+### migrateDatabases.js - page 57
+
+No comments.
+
+### jest.config.js - page 57 and 58
+
+No comments.
+
+### truncateTables.js - page 58
+
+No comments.
+
+### jest.config.js - page 59
+
+No comments.
+
+### seedUser.js - page 59 and 60
+
+No comments.
+
+### disconnectFromDb.js - page 61
+
+No comments.
+
+### jest.config.js - page 61 and 62
+
+No comments.
+
+### Listing 4. 35. server.js
+
+No comments.
+
+### Listing 4. 36. server.test.js
+
+No comments.
+
+### Listing 4. 37. server.js
+
+No comments.
+
+### Listing 4. 38. server.test.js
+
+No comments.
+
+### Listing 4. 39. server.test.js
+
+No comments.
+
+### Listing 4. 40. server.test.js
+
+No comments.
+
+### Listing 4. 41. server.test.js
+
+No comments.
+
+### Listing 4. 42. server.test.js
+
+No comments.
+
+`jest-when` - nice and handy! Good one.
+
+### Listing 4. 43. server.test.js
+
+No comments.
+
+`nock` - Good one!
+
+### Listing 4. 44. server.test.js
 
 No comments.

@@ -49,13 +49,13 @@ No comments. Looks good.
 
 ### Snippets on page 19, 20 and 21
 
-- addItemToCart.test.js √
+-   addItemToCart.test.js √
 
 Code looks good. They don't have the usual format of `Listing #. #.` numbers.
 
-- jest.config.js √
-- globalSetup.js √
-- globalTeardown.js √
+-   jest.config.js √
+-   globalSetup.js √
+-   globalTeardown.js √
 
 ### Listing 3. 9. server.test.js
 
@@ -308,6 +308,30 @@ No comments.
 
 Updated code and checked in.
 
+```JavaScript
+function sumOrDivide(a, b) {
+  if (a % 2 === 0 && b % 2 === 0) {
+    return a + b;
+  } else {
+    return a / b;
+  }
+}
+
+module.exports = sumOrDivide;
+```
+
 ### Listing 3. 38. math.test.js
 
 Updated code and checked in.
+
+```JavaScript
+const sumOrDivide = require("./math");
+
+test("sum", () => {
+  sumOrDivide(2, 4);
+});
+
+test("multiply", () => {
+  sumOrDivide(2, 6);
+});
+```
