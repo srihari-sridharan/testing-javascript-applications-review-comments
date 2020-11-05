@@ -47,8 +47,7 @@ No comments.
 No comments.
 
 > chapter6\1_introducing_jsdom\3_jest_jsdom
-> `found 4146 vulnerabilities (4144 low, 2 high)`
-> `run npm audit fix to fix them, or npm audit for details`
+> `found 4146 vulnerabilities (4144 low, 2 high)` > `run npm audit fix to fix them, or npm audit for details`
 
 ### Listing 6. 8. main.js
 
@@ -182,6 +181,10 @@ No comments.
 
 No comments.
 
+### Page 42 - Change needed in file path
+
+Should it be chapter6/3_handling_events/1_handling_raw_events ?
+
 ### Listing 6. 41. main.js
 
 No comments.
@@ -206,3 +209,175 @@ No comments.
 
 No comments.
 
+### Listing 6. 47. domController.js
+
+No comments. Executed code and relevant tests. Ensured that it is getting stored in local storage as expected.
+
+### Listing 6. 48. main.js
+
+No comments.
+
+### Listing 6. 49. domController.test.js
+
+No comments.
+
+### Listing 6. 50. main.test.js
+
+No comments.
+
+### Listing 6. 51. domController.js
+
+No comments. The reason behind the decision to clone `{ …data.inventory }` was well explained. Thanks.
+
+### Listing 6. 52. domController.js
+
+No comments.
+
+### Listing 6. 53. domController.js
+
+No comments.
+
+### Listing 6. 54. index.html
+
+No comments.
+
+### Listing 6. 55. main.js
+
+No comments. App and tests work as expected.
+
+### Listing 6. 56. domController.test.js
+
+No comments.
+
+### Listing 6. 57. domController.test.js
+
+No comments.
+
+### Listing 6. 58. domController.test.js
+
+No comments.
+
+### Listing 6. 59. domController.test.js
+
+No comments.
+
+### Listing 6. 60. domController.test.js
+
+No comments. Should we add numbering (❶) to this listing ?
+
+### Listing 6. 61. testUtils.js
+
+No comments.
+
+### Listing 6. 62. domController.test.js
+
+No comments.
+
+### Listing 6. 63. main.test.js
+
+No comments.
+
+### Listing 6. 64. main.test.js
+
+No comments.
+
+### Listing 6. 65. testUtils.js
+
+No comments.
+
+### Listing 6. 66. domController.test.js
+
+No comments.
+
+### Listing 6. 67. main.test.js
+
+No comments.
+
+### Page 76 Note - Chapter number correction
+
+Should it be chapter6 > 5_web_sockets_and_http_requests...? It is mentioned as chapter5. Request you to check this all across the book. I understand that as we write we move the chapters across. Just a cosmetic thing!
+
+### Listing 6. 68. inventoryController.js
+
+No comments.
+
+### Listing 6. 69. setupGlobalFetch.js
+
+No comments.
+
+### Listing 6. 70. jest.config.js
+
+No comments.
+
+### Listing 6. 71. inventoryController.test.js
+
+No comments.
+
+### Listing 6. 72. inventoryController.test.js
+
+No comments.
+
+### Listing 6. 73. main.js
+
+No comments.
+
+### Listing 6. 74. main.test.js
+
+No comments.
+
+### Listing 6. 75. main.test.js
+
+No comments.
+
+### Section 6.5.2
+
+The chapter number needs a correction in the text! chapter6 instead of chapter5.
+
+> Because this is a book about tests, I’ve already implemented this functionality in the backend.
+If you don’t want to implement it yourself, you can use the server which you can
+find within the ~~`chapter5`~~ `chapter6` folder in this book’s GitHub repository at [https://github.com/](https://github.com/)
+lucasfcosta/testing-javascript-applications.
+
+### Listing 6. 76. socket.js
+
+No comments.
+
+### Listing 6. 77. main.js
+
+No comments.
+
+### Listing 6. 78. server.js
+
+No comments.
+
+### Listing 6. 79. inventoryController.js
+
+No comments.
+
+### Listing 6. 80. socket.js
+
+No comments.
+
+### Listing 6. 81. socket.js
+
+No comments.
+
+### Listing 6. 82. socket.test.js
+
+No comments.
+
+### Listing 6. 83. testSocketServer.js
+
+No comments.
+
+### Listing 6. 84. testSocketServer.js
+
+No comments.
+
+### Listing 6. 85. testSocketServer.js
+
+No comments.
+
+### Listing 6. 86. inventoryController.test.js
+
+No comments.
